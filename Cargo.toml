@@ -22,6 +22,14 @@ secrecy = { version = "0.8.0", features = ["serde"] }
 tracing-actix-web = "0.7.2"
 serde-aux = "4.1.2"
 unicode-segmentation = "1.10.1"
+validator = "0.16.0"
+fake = "2.5.0"
+rand = "0.8.5"
+reqwest = "0.11.14"
 
 [dev-dependencies]
-reqwest = "0.11.14"
+claim = "0.5.0"
+quickcheck = "1.0.3"
+quickcheck_macros = "1.0.0"
+tokio = { version = "1", features = ["rt", "macros"] }
+wiremock = "0.5.17"
